@@ -1,7 +1,4 @@
-import "./App.css";
-// import { Fisrt, Two, Three, Four } from "./img/iconscomponents/fisrt";
-import Icons from "./components/icons";
-import logo from "./img/icon.png";
+
 import productLogo from "./img/product.png";
 import Product from "./components/product";
 import Books from "./components/books";
@@ -13,29 +10,6 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="grid grid-cols-4 gap-4">
-          <Icons
-            title="Тўлов химояси"
-            ImgSrc={logo}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
-          />
-          <Icons
-            title="Тўлов химояси"
-            ImgSrc={logo}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
-          />
-          <Icons
-            title="Тўлов химояси"
-            ImgSrc={logo}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
-          />
-          <Icons
-            title="Тўлов химояси"
-            ImgSrc={logo}
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor"
-          />
-        </div>
-
         <h1 className="text-[25px] font-semibold pb-8">Рукнлар</h1>
         <div className="flex gap-7 items-center justify-center ">
           <Product imgsrcc={productLogo} />
